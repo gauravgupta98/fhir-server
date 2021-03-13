@@ -5,9 +5,6 @@
 
 namespace Microsoft.Health.Fhir.Core.Models
 {
-    /// <summary>
-    /// Defines the possible specifications of Fhir.
-    /// </summary>
     public enum FhirSpecification
     {
         /// <summary>
