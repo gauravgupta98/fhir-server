@@ -7,15 +7,8 @@ namespace Microsoft.Health.Fhir.Core.Models
 {
     public class ReferenceComponent
     {
-        /// <summary>
-        /// Gets or sets the reference of the component.
-        /// </summary>
         public string Reference { get; set; }
 
-        /// <summary>
-        /// Implements the ToString method.
-        /// </summary>
-        /// <returns>The reference string.</returns>
         public override string ToString()
         {
             return Reference;

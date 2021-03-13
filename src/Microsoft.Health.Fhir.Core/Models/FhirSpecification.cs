@@ -7,19 +7,8 @@ namespace Microsoft.Health.Fhir.Core.Models
 {
     public enum FhirSpecification
     {
-        /// <summary>
-        /// The Stu3 Fhir specification.
-        /// </summary>
         Stu3,
-
-        /// <summary>
-        /// The R4 Fhir specification.
-        /// </summary>
         R4,
-
-        /// <summary>
-        /// The R5 Fhir specification.
-        /// </summary>
         R5,
     }
 }
